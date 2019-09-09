@@ -29,8 +29,8 @@ public class ProductsControllerTest {
 
     @Rule
     public final SpringMethodRule springMethodRule = new SpringMethodRule();
-    
-    @Autowired    
+
+    @Autowired
     private MockMvc mockMvc;
 
     /**
@@ -1329,5 +1329,5 @@ public class ProductsControllerTest {
                 )
         );
     }
-    
+
 }
